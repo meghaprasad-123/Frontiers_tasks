@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Expanded&display=swap');
 
 
 * {
@@ -17,7 +18,7 @@ body {
     background: white;
     align-items: center;
     justify-content: space-between;
-    padding: 0.7rem 1rem;
+    padding: 1rem 1rem;
 }
 
 .logo {
@@ -29,7 +30,14 @@ body {
     width: 9rem;
     height: 1.6875rem;
 }
-
+.nav-opt select{
+    border: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.875rem;
+}
+.nav-opt select option a{
+    color: #040404
+}
 .nav-opt {
     display: flex;
     list-style: none;
@@ -37,11 +45,11 @@ body {
     align-items: center;
     margin-left: 1.5625rem;
     font-family: 'Raleway', sans-serif;
-    /* font-weight: bold; */
-    font-size: 0.9rem;
+    font-size: 0.875rem;
 }
 .nav-items{
     cursor: pointer;
+    color: #040404;
 }
 
 .nav-items svg {
@@ -55,7 +63,7 @@ button {
     background: white;
     font-family: 'Raleway', sans-serif;
     padding: 0.4rem 0.625rem;
-    border: 0.8px solid black;
+    border: 0.8px solid #0000007a;
 }
 hr{
     background: #3d3b3bbd;
@@ -107,6 +115,14 @@ a {
     background-color: #000;
     display: block;
     margin: 5px 0;
+}
+.menu_items select{
+    border: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+}
+.menu_items select option a{
+    color: #040404;
 }
 
 #third {
@@ -160,8 +176,9 @@ input:focus{
 
 .col1 h1 {
     font-weight: bold;
-    font-size: 35px;
+    font-size: 33px;
     color: #282828;
+    font-family: 'Encode Sans Semi Expanded', sans-serif
   
 }
 
@@ -179,9 +196,11 @@ input:focus{
     font-family: 'Raleway', sans-serif;
 }
 
-.menu a {
-    color: #28282897;
-    font-weight: 600;
+.menu button a {
+    color: #6b6b6b !important;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
 }
 
 .menu a:hover {
@@ -235,7 +254,7 @@ input:focus{
 }
 
 
-.book{
+.bookmark_active{
     fill: blue;
 }
 
@@ -302,7 +321,9 @@ input:focus{
     width: 20px;
     padding: 0;
 }
-
+.svg2{
+    display: none;
+}
 .sidebar {
     left: -100%;
     background:white;
@@ -353,6 +374,16 @@ input:focus{
 .set svg{
    width: 8rem;
 }
+.contents{
+    position: relative;
+}
+.menu button{
+    border: none;
+    background: transparent;
+    padding: 0;
+}
+
+
 
 
 
